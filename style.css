@@ -4,103 +4,158 @@
     margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
     height: 100%;
-    /* background-image:url('images/background3.jpg'); */
-    
+    background-image:url('images/test-background.jpg');
 
     }
 
+ /* p  element */
     p{
         overflow-wrap: break-word;
    }
 
+   /* navbar  */
     .navbar{
         
         overflow: hidden;
-        background-color: black;
+        background-color: none;
         width: 100%;
         padding: 20px 10px;
         border-radius: 5px;
         text-align: center;
     }
 
+    /* nav links  */
     .navbar li{
          
         display: inline-block;
         padding: 10px;
         color: white;
-        transition: 0.30s ease-out;
+        transition: 0.60s ease-out;
     }
 
+    /* nav a links  */
     .navbar a{
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    /* nav link left */
     .nav-left{
         float: left;
     }
 
+
+    /* profile card css */
+    .profile-card{
+            max-width: 400px;
+            margin: auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            border-radius:  5px;
+            color: black;    
+    }
+
+    /* profile image circle  */
     .profile-image{
         border-radius: 50%;
     }
     
-
+    /* container css  */
     .container{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         justify-content: center;
         text-align: center;
         color:  black;
     }
-
+  /* h1 css  */
     .container h1{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
 
     }
-
+    /* h3 container  */
+    .container h3{
+        color: white;
+    }
+    /* p container  */
     .container p{
         color:  white;
     }
+   
+    /* content position center  */
+    .content-center{
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        justify-content: center;
+        text-align: center;
+        color:  white;
+        
+    }
 
+    /* content position left  */
     .content-left{
         float: left;
         margin: 30px 12px 3px 4px;  
-        color: black;
-        background: linear-gradient(to bottom, #ffffff 1%, #999966 100%);
+        color:  white;
+        background-color: none;
         width: 100%;
     }
-
+     /* h2 left css  */
+    .content-left h2{
+        text-align: center;
+    }
+     
+    .content-left {
+        padding: 0 2rem;
+    }
+   /* image position left css */
     .left-img{
         border: solid black;
         float: left;
         margin: 10px;
     }
 
+    /* content right css */
     .content-right{
         float: right;
         margin: 30px 12px 3px 4px;
-        color: black;
-        background: linear-gradient(to bottom, #ffffff 1%, #999966 100%);
+        color: white;
+        background-color: none;
         width: 100%;
     }
 
+    /* h2 right css */
+    .content-right h2 {
+        text-align: center;
+    }
+
+    /* css p right */
+    .content-right p {
+       padding:0 2rem;
+    }
+
+    /* img position in right using css */
     .right-img{
         border: solid black;
         float: right;
         margin: 10px;
     }
-
+ /* li center class css  */
     .li-center{
         text-align: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         display:inline-flex;
     }
 
-    .container h5{
+    /* h5 content center css */
+    .content-center h5{
         display: flex;
     }
+
+    /* input types text css  */
 
     input[type=text], select, textarea {
         width: 100%; 
@@ -113,7 +168,7 @@
         resize: vertical 
       }
       
-     
+      /* form submit button css */
       input[type=submit] {
         background-color: white;
         color: black;
@@ -128,9 +183,15 @@
         background-color: grey;
       }
       
-     
+     /* contact forms css  */
       .contact-forms {
         border-radius: 5px;
-        background-color: #f2f2f2;
+        background-color: none;
         padding: 20px;
       }
+   /* for contact forms label */
+      .contact-forms label{
+        color: white;
+      }
+
+
