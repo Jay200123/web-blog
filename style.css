@@ -42,6 +42,8 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
+
+
     /* nav link left */
     .nav-left{
         float: left;
@@ -50,18 +52,20 @@
 
     /* profile card css */
     .profile-card{
-            max-width: 400px;
+            max-width: 100%;
             margin: auto;
-            text-align: center;
+            padding: 10px;
+            text-align: left;
             font-family: Arial, Helvetica, sans-serif;
-            background-color: white;
+            background: linear-gradient(grey, black);
             border-radius:  5px;
-            color: black;    
+            color: white;    
     }
 
     /* profile image circle  */
     .profile-image{
         border-radius: 50%;
+        float: left;
     }
     
     /* container css  */
@@ -192,6 +196,41 @@
    /* for contact forms label */
       .contact-forms label{
         color: white;
+      }
+
+      .home-content{
+        text-align: center;
+        justify-content: center;
+        color: white;
+        padding: 10px;
+        margin: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .home-content li {
+        display: inline-block;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+      }
+
+      .home-content a{
+        text-decoration: none;
+      }
+
+      .home-content a:hover{
+
+        background-color: none;
+        color: red;
+      }
+
+      .content-grid{
+        border-radius: 5px;
+        background: linear-gradient(white, black);
+        color: black;
+        justify-content: center;
+        text-align: center;
       }
 
 
