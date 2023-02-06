@@ -36,6 +36,10 @@
         transition: 0.60s ease-out;
     }
 
+    .navbar li:hover{
+        color: red;
+    }
+
     /* nav a links  */
     .navbar a{
         text-decoration: none;
