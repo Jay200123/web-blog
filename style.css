@@ -1,4 +1,7 @@
- body, html{
+/* @media screen and (max-width:481px){ */
+
+
+body, html{
  
     padding: 0;
     margin: 0;
@@ -11,6 +14,17 @@
 
     }
 
+    .number-background{
+      padding: 0;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      height: 100%;
+      background-image:url('images/numbers-background.jpg');
+    }
+
  /* p  element */
     p{
         overflow-wrap: break-word;
@@ -20,9 +34,9 @@
     .navbar{
         
         overflow: hidden;
-        background-color: none;
+        background-color: black;
         width: 100%;
-        padding: 20px 10px;
+        padding: 10px 10px;
         border-radius: 5px;
         text-align: center;
     }
@@ -211,6 +225,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
 
+
       .home-content li {
         display: inline-block;
         padding: 15px;
@@ -219,15 +234,19 @@
         color: white;
       }
 
+      .home-content li:hover{
+        color: red;
+      }
+
       .home-content a{
         text-decoration: none;
       }
 
-      .home-content a:hover{
+      /* .home-content a:hover{
 
         background-color: none;
         color: red;
-      }
+      } */
 
       .content-grid{
         border-radius: 5px;
@@ -236,5 +255,5 @@
         justify-content: center;
         text-align: center;
       }
-
+/*  } */
 
