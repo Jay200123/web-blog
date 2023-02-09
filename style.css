@@ -14,17 +14,6 @@ body, html{
 
     }
 
-    .number-background{
-      padding: 0;
-      margin: 0;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-      background-attachment: fixed;
-      height: 100%;
-      background-image:url('images/numbers-background.jpg');
-    }
-
  /* p  element */
     p{
         overflow-wrap: break-word;
@@ -34,7 +23,7 @@ body, html{
     .navbar{
         
         overflow: hidden;
-        background-color: black;
+        background-color: none;
         width: 100%;
         padding: 10px 10px;
         border-radius: 5px;
