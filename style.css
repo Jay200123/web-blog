@@ -111,7 +111,7 @@ body, html{
     }
 
     span{
-      font-size: 18px;
+      font-size: 15px;
     }
 
     .row{
@@ -140,6 +140,22 @@ body, html{
       font-size: 18px;
       white-space: nowrap;
       background: linear-gradient(to left, black 0%, red 100%);
+    } 
+
+    .buttons .btn-submit{
+      color: black;
+      text-decoration: none;
+      margin: 0 20px;
+      padding: 8px 25px;
+      border-radius: 25px;
+      font-size: 18px;
+      white-space: nowrap;
+      background-color: white;
+    } 
+
+  .buttons .btn-submit:hover{
+      color: red;
+
     }
 
     .buttons .btn:hover{
@@ -237,45 +253,7 @@ body, html{
     .content-center h5{
         display: flex;
     }
-
-    /* input types text css  */
-
-    input[type=text], select, textarea {
-        width: 100%; 
-        padding: 12px;  
-        border: 1px solid #ccc; 
-        border-radius: 4px;
-        box-sizing: border-box; 
-        margin-top: 6px; 
-        margin-bottom: 16px;
-        resize: vertical 
-      }
-      
-      /* form submit button css */
-      input[type=submit] {
-        background-color: white;
-        color: black;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-      
-      
-      input[type=submit]:hover {
-        background-color: grey;
-      }
-      
-     /* contact forms css  */
-      .contact-forms {
-        border-radius: 5px;
-        background-color: none;
-        padding: 20px;
-      }
-   /* for contact forms label */
-      .contact-forms label{
-        color: white;
-      }
+ 
 
       .home-content{
         text-align: center;
@@ -295,7 +273,7 @@ body, html{
         text-align: center;
         border-radius: 5px;
         background-color: black;
-        border: solid 1px red;
+        border: solid 1px white;
         color: white;
       }
 
@@ -320,6 +298,40 @@ body, html{
         justify-content: center;
         text-align: center;
       }
+
+      .contact-forms{
+        margin: 10px;
+        padding: 10px;
+        text-align: left;
+        width: 600px;
+        height: 450px;
+        border-radius: 5px;
+        background: linear-gradient(to left, black 0%, red 100%);
+        color: white;
+        position: absolute;
+        top: 50%;
+	      left: 50%;
+	      transform: translate(-50%, -50%);
+      }
+
+      .form-control{
+        border-radius: 5px;
+        padding: 5px;
+        width: 100%;
+        border: solid 2px white;
+          }
+
+          .textbox{
+            width: 580px;
+            height: 100px;
+            border-radius: 5px;
+            border: solid 2px white;
+          }
+
+          .contact-forms button{
+            text-align: center;
+          }
+          
 
 /*  } */
 

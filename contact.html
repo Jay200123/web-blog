@@ -23,24 +23,29 @@
         </ul>
     </nav>
 
-    <h3 style="color: white;">Contact Form</h3>
 
     <div class="contact-forms">
-      <form action="#">
-        <label for="Username"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Username</label>
-        <input type="text" id="Username" name="Username" placeholder="Your name..">
-    
-        <label for="email"><i class="fa fa-envelope-o" aria-hidden="true"></i>Email</label>
-        <input type="text" id="email" name="email" placeholder="email..">
+     <h3><i class="fa fa-envelope" aria-hidden="true"></i>Contact Form</h3> 
+     <form>
 
-    
-        <label for="subject"><i class="fa fa-reply" aria-hidden="true"></i>Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-    
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" class="form-control" placeholder="First Name...">
+
+      <label for="lname">Last Name:</label><br>
+      <input type="text" id="lname" name="lname" class="form-control" placeholder="Last Name...">
+
+      <label for="email">Email</label><br>
+      <input type="text" id="email" name="email" class="form-control" placeholder="email123@gmail.com...">
+
+      <label for="message">Message</label><br>
+      <textarea name="message" class="textbox" placeholder="Write Something..."></textarea>
+
+      <div class="buttons">
+        <a href="#" class="btn-submit">Submit</a>
+      </div>
+
+    </div>   
+
     
 </body>
 </html>
