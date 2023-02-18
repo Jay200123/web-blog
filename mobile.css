@@ -1,4 +1,4 @@
-@media screen and (max-width:600px){
+@media screen and (max-width:480px){
 
     body, html{
  
@@ -14,15 +14,15 @@
         }
 
         div{
-          max-width: 600px; 
+          max-width: 480px; 
         }
 
         iframe{
-          max-width: 600px;
+          max-width: 480px;
         }
 
         video{
-          max-width: 600px;
+          max-width: 480px;
         }
         
     
@@ -305,6 +305,7 @@
             border-radius: 5px;
             background: linear-gradient(white, black);
             color: black;
+            max-width: 480px;
             justify-content: center;
             text-align: center;
           }
