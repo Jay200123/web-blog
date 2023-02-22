@@ -312,7 +312,15 @@
         color: black;
         justify-content: center;
         text-align: center;
+        max-width: 480px;
       }
+
+      video{
+        max-width: 480px;
+        display: block;
+        margin: 0 auto;
+      }
+
 
       .contact-forms{
         margin: 10px;
