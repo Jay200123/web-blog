@@ -25,7 +25,7 @@ body, html{
         width: 100%;
         padding: 10px 10px;
         border-radius: 5px;
-        text-align: center;
+        text-align: right;
     }
 
     /* nav links  */
@@ -141,10 +141,10 @@ body, html{
       color: #fff;
       text-decoration: none;
       margin: 0 20px;
-      padding: 8px 25px;
+      padding: 8px 15px;
       border-radius: 25px;
       border:  solid 2px white;
-      font-size: 18px;
+      font-size: 12px;
       white-space: nowrap;
       background: linear-gradient(to left, black 0%, red 100%);
     } 
@@ -345,6 +345,13 @@ body, html{
           .contact-forms button{
             text-align: center;
           }
+
+          .index-content{
+            float: left;
+            color: white;
+            margin: 10px;
+          }
+        
           
 
 /*  } */
