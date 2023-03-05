@@ -144,10 +144,15 @@ body, html{
       padding: 8px 15px;
       border-radius: 25px;
       border:  solid 2px white;
-      font-size: 12px;
+      font-size: 15px;
       white-space: nowrap;
       background: linear-gradient(to left, black 0%, red 100%);
     } 
+
+    .buttons .btn-primary:hover{
+      color: red;
+
+    }
 
 
     .buttons .btn-submit{
