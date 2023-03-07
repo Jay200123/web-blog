@@ -310,9 +310,6 @@ body, html{
       } */
 
       .content-grid{
-        border-radius: 5px;
-        background: linear-gradient(white, black);
-        color: black;
         justify-content: center;
         text-align: center;
       }
