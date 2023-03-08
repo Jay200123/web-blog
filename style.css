@@ -218,7 +218,7 @@ body, html{
         width: 100%;
     }
      /* h2 left css  */
-    .content-left h2{
+    .content-left h2, h3{
         text-align: center;
     }
      
@@ -242,7 +242,7 @@ body, html{
     }
 
     /* h2 right css */
-    .content-right h2 {
+    .content-right h2,h3 {
         text-align: center;
     }
 
