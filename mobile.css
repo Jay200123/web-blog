@@ -287,7 +287,7 @@
         margin: 10px;
         padding: 10px;
         text-align: left;
-        width: 430px;
+        width: 410px;
         height: 450px;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -308,7 +308,7 @@
           }
 
           .textbox{
-            width: 400px;
+            width: 380px;
             height: 100px;
             border-radius: 5px;
             border: solid 1px black;
