@@ -287,12 +287,13 @@
         margin: 10px;
         padding: 10px;
         text-align: left;
-        width: 600px;
+        width: 430px;
         height: 450px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         border-radius: 15px;
-        border: solid black;
-        background-color: white;
-        color: black;
+        background:linear-gradient(to left, black 0%, red 100%);
+        color: white;
         position: absolute;
         top: 50%;
 	      left: 50%;
@@ -307,7 +308,7 @@
           }
 
           .textbox{
-            width: 580px;
+            width: 400px;
             height: 100px;
             border-radius: 5px;
             border: solid 1px black;
