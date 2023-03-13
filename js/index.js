@@ -3,7 +3,10 @@ $(document).ready(function () {
 
     // for redirecting to index
     $("#home").on("click", function(){
+
+        setTimeout(function(){
         window.location.href="index.html"
+        }, 500);
     });
 
     //redirects to profile page
@@ -19,7 +22,6 @@ $(document).ready(function () {
     $("#message").on("click", function(){
         window.location.href="contact.html"
     });
-
 
    // for redirecting to other contents
     $("#content1").on("click", function(){
