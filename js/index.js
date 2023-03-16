@@ -59,4 +59,8 @@ $(document).ready(function () {
     $("#content9").on("click", function(){
         window.location.href="content9.html"
     });
+
+    $("#content10").on("click", function(){
+        window.location.href="content10.html"
+    });
 });
