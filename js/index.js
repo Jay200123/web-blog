@@ -67,4 +67,12 @@ $(document).ready(function () {
     $("#content11").on("click", function(){
         window.location.href="content11.html"
     });
+
+    $("#content12").on("click", function(){
+        window.location.href="content12.html"
+    })
+
+    $("#content13").on("click", function(){
+        window.location.href="content13.html"
+    })
 });
