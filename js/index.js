@@ -80,7 +80,7 @@ $(document).ready(function () {
         window.location.href="content14.html";
     })
 
-    $("#4`1fcontent15").on("click", function(){
+    $("#content15").on("click", function(){
         window.location.href="content15.html";
     })
 });
