@@ -191,7 +191,6 @@ body, html{
     }
    /* image position left css */
     .left-img{
-        border: solid black;
         float: left;
         margin: 10px;
     }
@@ -217,7 +216,6 @@ body, html{
 
     /* img position in right using css */
     .right-img{
-        border: solid black;
         float: right;
         margin: 10px;
     }
