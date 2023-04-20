@@ -83,4 +83,8 @@ $(document).ready(function () {
     $("#content15").on("click", function(){
         window.location.href="content15.html";
     })
+
+    $("#content16").on("click", function(){
+        window.location.href="content16.html";
+    })
 });
