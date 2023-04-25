@@ -308,7 +308,22 @@ body, html{
             color: white;
             margin: 10px;
           }
-      
+          
+          .references {
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            color: white;
+          }
+
+          .references a{
+            color: white;
+          }
+
+          .references a:hover{
+            color: red;
+          }
 
 /*  } */
 
