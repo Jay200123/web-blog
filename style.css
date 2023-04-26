@@ -325,5 +325,44 @@ body, html{
             color: red;
           }
 
+          footer{
+            color: white;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 5px;
+            font-size: 1rem;
+          }
+
+          .footer-right{
+            text-align: right;
+            color: white;
+          }
+
+          .footer-right li{
+            display: inline-block;
+            padding: 5px;
+            font-size: 18px;
+          }
+
+          .footer-left{
+            text-align: left;
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1rem;
+          }
+
+          .footer ul{
+            list-style-type: none;
+          }
+
+          .footer-content {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+            padding: 10px;
+          }
 /*  } */
 
